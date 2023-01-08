@@ -18,6 +18,9 @@ public class 모음의개수 {
             }
             // 문장 쪼개서 배열에 넣어주기
             String arr[] = str.split("");
+
+            System.out.println("arr값 로그 찍기 == "+arr[0]+arr[1]);
+            
             for(int i = 0; i<arr.length; i++){
                 if(arr[i].equals("a") || arr[i].equals("e")|| arr[i].equals("o")|| arr[i].equals("i")|| arr[i].equals("u")){
                     cnt++;
@@ -40,7 +43,7 @@ public class 모음의개수 {
  * 변환해주는 녀석
  */
 
- /* 처음으로 짰던 코드
+/* 처음으로 짰던 코드
   *     public static void main(String[] args) {
         int sum = 0;
         Scanner sc = new Scanner(System.in);
@@ -58,3 +61,11 @@ public class 모음의개수 {
 }
 
   */
+
+
+/* INPUT 예제 👇 
+How are you today?
+Quite well, thank you, how about yourself?
+I live at number twenty four.
+#
+*/
