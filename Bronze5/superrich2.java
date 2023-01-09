@@ -1,4 +1,4 @@
-package 브론즈5;
+package Bronze5;
 
 import java.math.BigInteger;
 import java.util.Scanner;

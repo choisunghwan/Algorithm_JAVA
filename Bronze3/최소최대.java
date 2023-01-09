@@ -1,4 +1,4 @@
-package 브론즈3;
+package Bronze3;
 
 import java.util.Arrays;
 import java.util.Scanner;
