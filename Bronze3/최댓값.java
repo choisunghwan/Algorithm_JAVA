@@ -1,3 +1,4 @@
+/*풀이: https://couchcoding.tistory.com/376 */
 package Bronze3;
 
 import java.util.Scanner;
